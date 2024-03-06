@@ -1,10 +1,18 @@
 import Stopwatch from '@/components/Stopwatch'
 import React from 'react'
+import Navbar from '../components/Navbar'
 
-const page = () => {
-  return (
-    <Stopwatch />
-  )
+export default function Home() {
+  return <Navbar />;
 }
 
-export default page
+// const page = () => {
+//   return (
+//     <>
+//       <navbar />
+//       <Stopwatch />
+//     </>
+//   )
+// }
+
+// export default page
