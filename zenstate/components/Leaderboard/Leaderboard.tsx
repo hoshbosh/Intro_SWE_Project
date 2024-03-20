@@ -1,5 +1,5 @@
 import React from 'react';
-import './Leaderboard.css'; // Import CSS file for styles
+import './Leaderboard.css'; 
 
 const Leaderboard = () => {
   const players = [
