@@ -16,6 +16,7 @@ const Navbar = () => {
                 /></a>
               </div>
             </div>
+
             <div className="hidden md:block">
               <div className="ml-4 flex items-center space-x-4">
                 <a href="/onboarding" className="text-sm border border-slate-300 text-slate-300 px-4 
@@ -23,6 +24,13 @@ const Navbar = () => {
                   Login
                 </a>
               </div>
+
+          </div>
+          <div className="hidden md:block">
+            <div className="ml-4 flex items-center space-x-4">
+              <a href="/timer" className="border border-slate-300 text-slate-300 px-4 py-2 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none">
+              Timer
+              </a>
             </div>
           </div>
         </div>
