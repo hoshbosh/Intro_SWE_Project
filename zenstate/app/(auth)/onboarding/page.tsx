@@ -1,6 +1,6 @@
 import { UserButton } from "@clerk/nextjs";
 import Link from 'next/link';
-import NavbarUser from '@/components/Navbar/NavbarUser'
+import NavbarUser from '@/components/NavbarUser'
 import Footer from '@/components/Footer'
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation'
 import WeekForm from "@/components/weeklypoints/weeklypoints";
