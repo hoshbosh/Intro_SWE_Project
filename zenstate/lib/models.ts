@@ -1,16 +1,15 @@
 import mongoose from "mongoose";
 const timeLogSchema=new mongoose.Schema({
-    id:{type:String},
     time:{type:Number},
     date:{type:Date},
     category:{type:String}
 })
 export const TimeLog=mongoose.model("TimeLog", timeLogSchema)
 const userSchema=new mongoose.Schema({
-    id: {type:String, required:true},
+    _id: {type:String, required:true},
     username:{type:String},
     friends:[{
-        type:mongoose.Schema.Types.ObjectId,
+        type:String,
         ref:"friend"
     }],
     history: [{
